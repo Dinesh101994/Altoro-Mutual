@@ -13,7 +13,13 @@ import org.openqa.selenium.support.PageFactory;
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		}	
-		
+	
+		@FindBy(id="uid")
+		public static WebElement inc_user_name;
+	
+		@FindBy(id="passw")
+		public static WebElement inc_user_pswd;
+
 		@FindBy(id="uid")
 		public static WebElement user_name;
 		
@@ -25,6 +31,13 @@ import org.openqa.selenium.support.PageFactory;
 		
 		@FindBy(xpath="/html/body/table[2]/tbody/tr/td[2]/div/p")
 		public static WebElement verify_homepage;
+		
+		public WebElement inc_user_name() {
+			return inc_user_name;
+		}
+		public WebElement inc_user_pswd() {
+			return inc_user_pswd;
+		}
 	
 		public WebElement user_name() {
 			return user_name;
