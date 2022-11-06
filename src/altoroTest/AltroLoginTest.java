@@ -22,6 +22,11 @@ public class AltroLoginTest extends BaseClass{
 		browserLaunch();
 		url();
 		LandingPage landingPage= new LandingPage(driver);
+		LandingPage landingPage= new LandingPage(driver);
+		landingPage.inc_user_name().sendKeys("demo_user");
+		landingPage.inc_user_pswd().sendKeys("demo_password");
+		landingPage.login_btn().click();
+		
 		landingPage.user_name().sendKeys("admin");
 		landingPage.user_pswd().sendKeys("admin");
 		landingPage.login_btn().click();
