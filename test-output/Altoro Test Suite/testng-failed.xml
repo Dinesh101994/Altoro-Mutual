@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Altoro Test Suite]">
+  <test name="view summary(failed)">
+    <classes>
+      <class name="altoroTest.AltoroViewSummary">
+        <methods>
+          <include name="accountSummary"/>
+        </methods>
+      </class> <!-- altoroTest.AltoroViewSummary -->
+    </classes>
+  </test> <!-- view summary(failed) -->
+</suite> <!-- Failed suite [Altoro Test Suite] -->

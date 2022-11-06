@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Altoro Test Suite">
+  <test name="Landing Page">
+  	   <classes>
+      		<class name="altoroTest.AltroLoginTest"/>
+       </classes>
+     </test>
+      
+      <test name= "view summary">
+         <classes>
+     		 <class name="altoroTest.AltoroViewSummary"/>
+   	     </classes>
+    </test>
+  
+</suite> <!-- Suite -->
